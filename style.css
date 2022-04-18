@@ -13,8 +13,8 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        background-color: #B53471;
-        height: 96px;
+        background-color: #FFC312;
+        height: 86px;
         align-items: center;
         padding: 1rem 0;
         z-index: 9999;
@@ -34,20 +34,20 @@
     .header-navbar ul li {
         display: inline;
         margin: 0 1rem;
-        font-size: 0.9rem;
-        font-family: 'josefin sans';
+        font-size: 1rem;
     }
     
     .header-navbar ul li a {
         text-decoration: none;
         text-transform: uppercase;
-        color: white;
+        color: #1B1464;
+        font-family: 'Oswald', sans-serif;
     }
     
     .header-navbar ul li a:hover {
-        color: #ffd325;
+        color: #fa151d;
         transition: 0.4s;
-        text-shadow: 1px 1px #12CBC4;
+        text-shadow: 1px 1px 1px #f7e929;
     }
     
     .carousel-inner>.carousel-item>img {
@@ -153,13 +153,22 @@
     footer {
         text-align: center;
         padding-bottom: 2rem;
-        background-color: #B53471;
+        background-color: #FFC312;
         line-height: 60px;
     }
     
     footer span {
         font-weight: bold;
-        color: #12CBC4;
+        color: #EA2027;
+        text-shadow: 1px 1px #1B1464;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-social-media {
+        display: flex;
+        justify-content: space-around;
     }
     
     .header-social-media ul {
@@ -178,6 +187,31 @@
     }
     
     .header-social-media ul li a:hover {
-        color: #F79F1F;
+        color: #EA2027;
         text-shadow: 1px 1px 1px #1289A7;
+    }
+    
+    .logo-menu ul {
+        margin-top: 15px;
+        list-style: none;
+        font-size: 0.6rem;
+        color: #1B1464;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+    
+    .logo-menu ul li {
+        list-style: none;
+        text-decoration: none;
+        margin-top: 15px;
+        display: inline;
+    }
+    /*arumar algumas coisas*/
+    
+    @media (min-width: 1200px) {
+        h1 {
+            font-size: 4rem;
+        }
     }
