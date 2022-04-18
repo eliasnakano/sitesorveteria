@@ -18,7 +18,7 @@
         align-items: center;
         padding: 1rem 0;
         z-index: 9999;
-        position: fixed;
+        position: relative;
         top: 0;
         width: 100%;
     }
@@ -154,7 +154,9 @@
         text-align: center;
         padding-bottom: 2rem;
         background-color: #FFC312;
-        line-height: 60px;
+        line-height: 65px;
+        margin: 0 auto;
+        height: 100%;
     }
     
     footer span {
@@ -164,6 +166,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
+        font-size: 1.5rem;
     }
     
     .header-social-media {
@@ -174,15 +178,14 @@
     .header-social-media ul {
         height: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         letter-spacing: 2px;
     }
     
     .header-social-media ul li {
         list-style: none;
         margin: 0 1rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         letter-spacing: 3px;
     }
     
@@ -196,9 +199,6 @@
         list-style: none;
         font-size: 0.6rem;
         color: #1B1464;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         letter-spacing: 2px;
     }
     
@@ -207,11 +207,4 @@
         text-decoration: none;
         margin-top: 15px;
         display: inline;
-    }
-    /*arumar algumas coisas*/
-    
-    @media (min-width: 1200px) {
-        h1 {
-            font-size: 4rem;
-        }
     }
