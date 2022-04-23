@@ -34,7 +34,7 @@
     .header-navbar ul li {
         display: inline;
         margin: 0 1rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .header-navbar ul li a {
@@ -47,7 +47,7 @@
     .header-navbar ul li a:hover {
         color: #fa151d;
         transition: 0.4s;
-        text-shadow: 1px 1px 1px #f7e929;
+        text-shadow: 1px 1px #34495e;
     }
     
     .carousel-inner>.carousel-item>img {
@@ -207,4 +207,25 @@
         text-decoration: none;
         margin-top: 15px;
         display: inline;
+    }
+    
+    @media (max-width: 600px) {
+        .gallery-card {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 6px;
+            margin-bottom: 5px;
+            clear: both;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .header ul li {
+            font-size: 0.8rem;
+            margin: 0 auto;
+            padding: 2px;
+        }
     }
