@@ -235,3 +235,36 @@
             padding: 2px;
         }
     }
+    /*Pagina empresa*/
+    
+    .imgempresa {
+        padding: 8px;
+        text-align: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 15px;
+    }
+    
+    .empresa {
+        font-family: 'josefin sans';
+        font-size: 18px;
+        text-overflow: auto;
+        padding: 10px;
+        text-align: center;
+        background-color: #f6defc;
+    }
+    
+    .h1sombra {
+        text-shadow: 2px 2px 2px #000;
+        color: #686de0;
+    }
+    
+    .p1 {
+        text-align: justify;
+    }
+    
+    .p2 {
+        text-align: justify;
+    }
